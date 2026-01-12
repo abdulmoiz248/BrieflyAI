@@ -97,7 +97,7 @@ def sendToDiscord(articles):
         
         # Build embed message
         embed = {
-            "title": f"NeuraBrief — AI News ({timestamp})",
+            "title": f"BrieflyAI — AI News ({timestamp})",
             "description": f"Batch {batch_idx // 5 + 1}",
             "color": 0x0066cc,
             "fields": []
